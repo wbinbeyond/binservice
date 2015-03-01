@@ -15,6 +15,7 @@
 
     <mvc:resources mapping="/app/**" location="/app/" />
     <mvc:resources mapping="/app2/**" location="/app2/" />
+    <mvc:resources mapping="/app3/**" location="/app3/" />
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/pages/"/>
